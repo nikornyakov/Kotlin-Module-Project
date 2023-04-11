@@ -1,6 +1,6 @@
 class ArchList: Commander() {
 
-    var archiveMenu: MutableMap<Int,Archive> = HashMap()
+    private var archiveMenu: MutableMap<Int,Archive> = HashMap()
 
     override fun createArch() {
         println("Напишите название архива:")
